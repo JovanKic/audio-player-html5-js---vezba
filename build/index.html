@@ -1,15 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Kondor Starter Kit</title>
+    <title>Audio Player - vezba</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.min.css" />
 </head>
 <body>
-  <section id="page-home">
-
-  </section>
+    <div id="container">
+        <div id="audio-img">
+            <!--we dont need src coz well change it dynamically with js later-->
+            <img class="cover" alt="cover-img">
+        </div>
+        <div id="audio-player">
+            <div id="audio-info">
+                <!--these will be generated with js, so we wont include anything here-->
+                <span class="artist"></span> - <span class="title"></span>
+            </div>
+            <!--this range type is for the volume slider...-->
+            <input id="volume" type="range" min="0" max="10" value="5">
+            <br>
+            <div id="audio-buttons">
+                <button id="prev"></button>
+                <button id="play"></button>
+                <!--we will use css to hide the pause button until the song is playing-->
+                <button id="pause"></button>
+                <button id="stop"></button>
+                <button id="next"></button>
+            </div>
+            <div class="clearfix"></div>
+            <div id="tracker">
+                <div id="progress-bar">
+                    <!--well put shit here with js just like the other stuff-->
+                    <span id="progress"></span>
+                </div>
+                <span id="duration"></span>
+            </div>
+            <div class="clearfix"></div>
+            <ul id="playlist">
+                <li song="Queen - Another One Bites The Dust.mp3" cover="CD1.jpg" artist="Queen">Another One Bites The Dust</li>
+                <li song="Queen - Bicycle Race.mp3" cover="CD2.jpg" artist="Queen">Bicycle Race</li>
+                <li song="Queen - Bohemian Rhapsody.mp3" cover="CD3.jpg" artist="Queen">Bohemian Rhapsody</li>
+                <li song="Queen - Crazy Little Thing Called Love.mp3" cover="Front.jpg" artist="Queen">Crazy Little Thing Called Love</li>
+                <li song="Queen - Don't Stop Me Now.mp3" cover="CD1.jpg" artist="Queen">Don't Stop Me Now</li>
+                <li song="Queen - Fat Bottomed Girls.mp3" cover="CD2.jpg" artist="Queen">Fat Bottomed Girls</li>
+                <li song="Queen - Flash.mp3" cover="CD3.jpg" artist="Queen">Flash</li>
+                <li song="Queen - Good Old-Fashioned Lover Boy.mp3" cover="Front.jpg" artist="Queen">Good Old-Fashioned Lover Boy</li>
+                <li song="Queen - Killer Queen.mp3" cover="CD1.jpg" artist="Queen">Killer Queen</li>
+                <li song="Queen - Now I'm Here.mp3" cover="CD2.jpg" artist="Queen">Now I'm Here</li>
+                <li song="Queen - Play The Game.mp3" cover="CD3.jpg" artist="Queen">Play The Game</li>
+                <li song="Queen - Save Me.mp3" cover="Front.jpg" artist="Queen">Save Me</li>
+                <li song="Queen - Seven Seas Of Rhye.mp3" cover="CD1.jpg" artist="Queen">Seven Seas Of Rhye</li>
+                <li song="Queen - Somebody To Love.mp3" cover="CD2.jpg" artist="Queen">Somebody To Love</li>
+                <li song="Queen - We Are The Champions.mp3" cover="CD3.jpg" artist="Queen">We Are The Champions</li>
+                <li song="Queen - We Will Rock You.mp3" cover="Front.jpg" artist="Queen">We Will Rock You</li>
+                <li song="Queen - You're My Best Friend.mp3" cover="CD1.jpg" artist="Queen">You're My Best Friend</li>
+            </ul>
+        </div>
+    </div>
 
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/app.js"></script>
