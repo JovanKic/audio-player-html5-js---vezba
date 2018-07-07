@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35351b-a8fa-4a2e-ada6-62111447a444" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" afterDir="false" />
     </list>
@@ -36,8 +34,8 @@
           <file leaf-file-name="_page-home.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-164">
-                  <caret line="22" column="12" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="12" />
+                <state relative-caret-position="712">
+                  <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -45,8 +43,8 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+                <state relative-caret-position="644">
+                  <caret line="117" column="74" lean-forward="true" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
                 </state>
               </provider>
             </entry>
@@ -61,6 +59,7 @@
       <find>title</find>
       <find>time</find>
       <find>volume</find>
+      <find>next</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,8 +75,8 @@
         <option value="$PROJECT_DIR$/source/sass/3-basics/_links.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_selection-colors.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" />
-        <option value="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" />
         <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" />
         <option value="$PROJECT_DIR$/source/js/app.js" />
       </list>
     </option>
@@ -195,12 +194,12 @@
       <updated>1530963668619</updated>
       <workItem from="1530963669820" duration="15583000" />
       <workItem from="1530988365731" duration="600000" />
-      <workItem from="1530991348688" duration="2421000" />
+      <workItem from="1530991348688" duration="4421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18604000" />
+    <option name="totallyTimeSpent" value="20604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1096" height="1896" extended-state="6" />
@@ -365,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -379,10 +371,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        <state relative-caret-position="644">
+          <caret line="117" column="74" lean-forward="true" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
         </state>
       </provider>
     </entry>

@@ -77,7 +77,7 @@ $('#prev').click(function () {
 $('#volume').change(function () {
     audio.volume = parseFloat(this.value / 100);
 });
-//Ovaj kod dole mrtvi za showduration() sam kopirao od nekud
+//Ovaj kod dole mrtvi za showduration() sam kopirao od nekud, kao i poslednja 2
 //Time Duration
 function showDuration(){
     $(audio).bind('timeupdate', function(){
@@ -90,9 +90,35 @@ function showDuration(){
         }
         $('#duration').html(m + '.' + s);
         var value = 0;
+        //Play next if ended
         if (audio.currentTime > 0) {
             value = ((100 / audio.duration) * audio.currentTime);
         }
         $('#progress').css('width',value+'%');
+        //Play next song if ended
+        if(audio.currentTime >= audio.duration) {
+            $('#next').trigger('click');﻿
+        }
     });
 }
+//Ovaj za play next when ended je sranje, jer ne radi uvek, bolje je samo u showDuration() staviti uslov za to...
+
+//After a song ends play the next song
+// $(audio).on('ended', function() {
+//     audio.pause();
+//     var next = $('#playlist li.active').next();
+//     if (next.length == 0) {
+//         next = $('#playlist li:first-child');
+//     }
+//     initAudio(next);
+//     audio.play();
+//     showDuration();
+// });﻿
+
+//Ovo dole je ql ideja, al je malo sranje u praksi, doduse zavrsi posao :D
+//Control the song by clicking the progress bar
+$("#progress-bar").mouseup(function(e){
+    var leftOffset = e.pageX - $(this).offset().left;
+    var songPercents = leftOffset / $('#progress-bar').width();
+    audio.currentTime = songPercents * audio.duration;
+});﻿
