@@ -105,17 +105,17 @@ button#next {
 #progress-bar {
   width: 80%;
   margin: 9px auto 20px 2%;
-  height: 10px;
+  height: 7px;
   background: url(../img/progress_bg.png) no-repeat;
   float: left; }
 
 #progress {
   background: url(../img/progress.png) no-repeat;
-  height: 12px;
+  height: 10px;
   display: inline-block;
   position: absolute;
-  top: 10px;
-  left: 9px; }
+  top: 9px;
+  left: 7px; }
 
 #duration {
   position: absolute;

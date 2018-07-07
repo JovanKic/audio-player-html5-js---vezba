@@ -41,8 +41,43 @@ $('#stop').click(function () {
     audio.currentTime = 0;
     $('#pause').hide();
     $('#play').show();
+    $('#playlist li').removeClass('active');
+    $('#playlist li:first-child').addClass('active');
     $('#duration').fadeOut(400);
 })
+//Next Button
+$('#next').click(function () {
+    audio.pause();
+    var next = $('#playlist li.active').next();
+    if(next.length == 0) {
+        next = $('#playlist li:first-child');
+    }
+    initAudio(next);
+    audio.play();
+    $('#play').hide();
+    $('#pause').show();
+    $('#duration').fadeIn(400);
+    showDuration();
+});
+//Previous Button
+$('#prev').click(function () {
+    audio.pause();
+    var prev = $('#playlist li.active').prev();
+    if(prev.length == 0) {
+        prev = $('#playlist li:last-child');
+    }
+    initAudio(prev);
+    audio.play();
+    $('#play').hide();
+    $('#pause').show();
+    $('#duration').fadeIn(400);
+    showDuration();
+});
+//Volume Control
+$('#volume').change(function () {
+    audio.volume = parseFloat(this.value / 100);
+});
+//Ovaj kod dole mrtvi za showduration() sam kopirao od nekud
 //Time Duration
 function showDuration(){
     $(audio).bind('timeupdate', function(){

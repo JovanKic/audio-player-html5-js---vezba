@@ -7,13 +7,6 @@
       <change beforePath="$PROJECT_DIR$/build/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/1-tools/_normalize.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/1-tools/_normalize.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_base.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_buttons.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_buttons.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_links.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_links.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_selection-colors.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_selection-colors.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/5-modules/_flex-video.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/5-modules/_flex-video.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,12 +19,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/build/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="47" column="134" lean-forward="true" selection-start-line="47" selection-start-column="134" selection-end-line="47" selection-end-column="134" />
+                <state relative-caret-position="337">
+                  <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
                 </state>
               </provider>
             </entry>
@@ -39,30 +32,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="_page-home.sass" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="_page-home.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="219">
-                  <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+                <state relative-caret-position="-164">
+                  <caret line="22" column="12" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Build An Audio Player Using HTML5 &amp; jQuery (parts 1-2)/njegovi fajlovi/html5audioplayer-master/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="508">
-                  <caret line="101" column="42" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="42" />
+                <state relative-caret-position="372">
+                  <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -76,6 +60,7 @@
       <find>prev</find>
       <find>title</find>
       <find>time</find>
+      <find>volume</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,9 +76,9 @@
         <option value="$PROJECT_DIR$/source/sass/3-basics/_links.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_selection-colors.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" />
+        <option value="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/source/js/app.js" />
-        <option value="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" />
       </list>
     </option>
   </component>
@@ -209,36 +194,39 @@
       <option name="presentableId" value="Default" />
       <updated>1530963668619</updated>
       <workItem from="1530963669820" duration="15583000" />
+      <workItem from="1530988365731" duration="600000" />
+      <workItem from="1530991348688" duration="2421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15583000" />
+    <option name="totallyTimeSpent" value="18604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1096" height="1896" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Run" order="7" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32992035" />
       <window_info id="Gulp" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19980694" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20752896" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +236,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="134" selection-start-line="47" selection-start-column="134" selection-end-line="47" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Build An Audio Player Using HTML5 &amp; jQuery (parts 1-2)/njegovi fajlovi/html5audioplayer-master/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="134" lean-forward="true" selection-start-line="47" selection-start-column="134" selection-end-line="47" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Build An Audio Player Using HTML5 &amp; jQuery (parts 1-2)/njegovi fajlovi/html5audioplayer-master/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -256,17 +300,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/code.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/code.txt" />
     <entry file="file://$PROJECT_DIR$/build/assets/js/vendors.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -324,29 +360,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Build An Audio Player Using HTML5 &amp; jQuery (parts 1-2)/njegovi fajlovi/html5audioplayer-master/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="1717">
           <caret line="101" column="42" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="-164">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" column="134" lean-forward="true" selection-start-line="47" selection-start-column="134" selection-end-line="47" selection-end-column="134" />
+        <state relative-caret-position="337">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
         </state>
       </provider>
     </entry>
