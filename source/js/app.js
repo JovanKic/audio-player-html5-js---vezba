@@ -9,14 +9,14 @@ function initAudio(element) {
         cover = element.attr('cover'),
         artist = element.attr('artist');
     //Create Audio Object
-    audio = new Audio('../assets/media/' + song);
+    audio = new Audio('assets/media/' + song);
     if(!audio.currentTime) {
         $('#duration').html('0.00');
     }
     $('#audio-player .title').text(title);
     $('#audio-player .artist').text(artist);
     //Insert the Cover img
-    $('img.cover').attr('src','../assets/img/covers/' + cover);
+    $('img.cover').attr('src','assets/img/covers/' + cover);
     //Remove active class from everyone and put it on the current song
     $('#playlist li').removeClass('active');
     element.addClass('active');

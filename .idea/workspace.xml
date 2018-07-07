@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35351b-a8fa-4a2e-ada6-62111447a444" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_base.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +24,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/build/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+                <state relative-caret-position="663">
+                  <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -34,8 +37,17 @@
           <file leaf-file-name="_page-home.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="712">
-                  <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+                <state relative-caret-position="-699">
+                  <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_base.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_base.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -43,8 +55,8 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="644">
-                  <caret line="117" column="74" lean-forward="true" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -69,14 +81,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/source/sass/5-modules/_flex-video.sass" />
-        <option value="$PROJECT_DIR$/source/sass/3-basics/_base.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_buttons.sass" />
         <option value="$PROJECT_DIR$/source/sass/1-tools/_normalize.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_links.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_selection-colors.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" />
-        <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" />
+        <option value="$PROJECT_DIR$/source/sass/3-basics/_base.sass" />
+        <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/source/js/app.js" />
       </list>
     </option>
@@ -113,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,13 +166,19 @@
               <item name="audio-player-html5-js---vezba" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="3-basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="audio-player-html5-js---vezba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="audio-player-html5-js---vezba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="5-modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,12 +213,13 @@
       <updated>1530963668619</updated>
       <workItem from="1530963669820" duration="15583000" />
       <workItem from="1530988365731" duration="600000" />
-      <workItem from="1530991348688" duration="4421000" />
+      <workItem from="1530991348688" duration="5016000" />
+      <workItem from="1530996918320" duration="1610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20604000" />
+    <option name="totallyTimeSpent" value="22809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1096" height="1896" extended-state="6" />
@@ -213,7 +233,7 @@
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32992035" />
       <window_info id="Gulp" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20752896" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21138996" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
@@ -235,6 +255,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="74" lean-forward="true" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -350,13 +391,6 @@
     <entry file="file://$PROJECT_DIR$/source/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_base.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Build An Audio Player Using HTML5 &amp; jQuery (parts 1-2)/njegovi fajlovi/html5audioplayer-master/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1717">
@@ -364,24 +398,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
+    <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        <state relative-caret-position="-699">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
+    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_base.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="117" column="74" lean-forward="true" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
