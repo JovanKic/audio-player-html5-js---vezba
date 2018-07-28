@@ -17,13 +17,13 @@ var autoprefixer = require('gulp-autoprefixer'),
 
 // paths
 var styleSrc = 'source/sass/**/*.sass',
-    styleDest = 'build/assets/css/',
+    styleDest = 'docs/assets/css/',
     htmlSrc = 'source/',
-    htmlDest = 'build/',
+    htmlDest = 'docs/',
     vendorSrc = 'source/js/vendors/',
-    vendorDest = 'build/assets/js/',
+    vendorDest = 'docs/assets/js/',
     scriptSrc = 'source/js/*.js',
-    scriptDest = 'build/assets/js/';
+    scriptDest = 'docs/assets/js/';
 
 
 
@@ -44,13 +44,13 @@ gulp.task('sass', function() {
             suffix: '.min'
           }))
 
-        .pipe(gulp.dest('build/assets/css'));
+        .pipe(gulp.dest('docs/assets/css'));
 });
 
 gulp.task('images', function() {
     gulp.src('source/img/*')
         .pipe(images())
-        .pipe(gulp.dest('build/assets/img'));
+        .pipe(gulp.dest('docs/assets/img'));
 });
 
 // Uglify js files
@@ -58,7 +58,7 @@ gulp.task('scripts', function() {
     gulp.src('source/js/*.js')
         .pipe(plumber())
         .pipe(uglify())
-        .pipe(gulp.dest('build/assets/js'));
+        .pipe(gulp.dest('docs/assets/js'));
 });
 
 //Concat and Compress Vendor .js files
@@ -71,7 +71,7 @@ gulp.task('vendors', function() {
         .pipe(plumber())
         .pipe(concat('vendors.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('build/assets/js'));
+        .pipe(gulp.dest('docs/assets/js'));
 });
 
 
@@ -82,7 +82,7 @@ gulp.task('watch', function(){
     // Serve files from the root of this project
     browserSync.init({
         server: {
-            baseDir: "./build"
+            baseDir: "./docs"
         },
         notify: false
     });
@@ -90,7 +90,7 @@ gulp.task('watch', function(){
     gulp.watch(styleSrc,['sass']);
     gulp.watch(scriptSrc,['scripts']);
     gulp.watch(vendorSrc,['vendors']);
-    gulp.watch(['build/*.html', 'build/assets/css/*.css', 'build/assets/js/*.js', 'build/assets/js/vendors/*.js']).on('change', browserSync.reload);
+    gulp.watch(['docs/*.html', 'docs/assets/css/*.css', 'docs/assets/js/*.js', 'docs/assets/js/vendors/*.js']).on('change', browserSync.reload);
 
 });
 
